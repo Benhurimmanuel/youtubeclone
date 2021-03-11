@@ -1,0 +1,114 @@
+
+body{
+background-color: #0f0f0f;
+}
+#navbar {
+  background-color:#202020;
+  height: 100vh;
+  width: 7%;
+}
+
+#mainnav {
+  background-color: #212121;
+  height: 10vh;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 7%;
+}
+
+#logo {
+  width: 5%;
+}
+
+/* top navbar search */
+#search {
+  position:absolute;
+  top:2%;
+  width: 30%;
+  left:30%;
+  background-color: #181818;
+  border: 1px solid grey;
+  color: grey;
+}
+#searchbtn{
+  position:absolute;
+  top:2%;
+  margin-left:2%;
+  left:60%;
+}
+/* main page video */
+#mainsection {
+  padding:5%;
+  width:100vw;
+  display: flex;
+  position: absolute;
+  top: 18%;
+  left: 7%;
+  background-color: black;
+  border-top:1px solid grey;
+}
+iframe {
+  margin: 5px;
+}
+#channelsection{
+  /* padding:5%; */
+  width:100vw;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 18%;
+  left: 7%;
+  background-color: #181818;
+  border-top:1px solid grey;
+  color:white;
+
+}
+.sepbtn{
+  margin-right:5%;
+}
+#embedbtns{
+ display: flex; 
+  justify-content: space-evenly; 
+  padding:auto;
+  height:40px;
+   position: absolute;
+  top: 12%;
+  left: 10%;
+  background-color: black;
+}
+.btn-rounded{
+ background-color: #373737;;
+ bo
+}
+#channel_logo {
+  border-radius: 50%;
+ 
+}
+#channel_title {
+  display: line;
+  
+}
+#channeldiv{
+  margin-left:10%;
+  position:absolute;
+  top:70%;
+  width:93vw;
+  color:white;  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+;
+}
+
+.playlistimg, .playlistImgTitle{
+
+  margin:1%;
+  display: flex;
+  flex-wrap: inherit;
+} 
+
+/
